@@ -461,12 +461,13 @@ static const unsigned char sframe003_bits[] PROGMEM = {
 };
 
 //// GLOBAL VARIABLES
+unsigned long time;
 const int framesPerSecond = 3;
 int incoming;
 
 // *** PICK THE ENVIRONMENT YOUR CREATURE LIVES IN ***
 // 1 = Desert, 2 = Forest, 3 = Water
-int environment = 1;
+int environment = 3;
 int petStatus = 0; // 0=HAPPY, 1=SAD
 ////
 
